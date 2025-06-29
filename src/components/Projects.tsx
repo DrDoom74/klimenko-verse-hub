@@ -30,7 +30,7 @@ const Projects = () => {
       title: "Тренажеры",
       category: "Проект",
       description: "Интерактивные тренажеры для практки тестирования, позволяющие прокачать базовые навыки начинающим тестировщикам",
-      link: "https://trackhabits.ru/",
+      link: "https://aklimenkoschool.ru/simulators",
       linkText: "Посетить сайт"
     }
   ];
