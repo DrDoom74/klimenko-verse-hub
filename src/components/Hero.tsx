@@ -47,7 +47,7 @@ const Hero = () => {
                 <img 
                   src="/lovable-uploads/fe40ffab-ce0d-4147-996a-14daed1604e9.png" 
                   alt="Алексей Клименко"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-left"
                 />
               </div>
             </div>
