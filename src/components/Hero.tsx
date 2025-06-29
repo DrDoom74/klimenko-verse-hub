@@ -45,9 +45,9 @@ const Hero = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden mx-auto shadow-xl">
                 <img 
-                  src="/lovable-uploads/fe40ffab-ce0d-4147-996a-14daed1604e9.png" 
+                  src="/lovable-uploads/d2f808a8-a634-424f-8d41-b051f629e0a9.png" 
                   alt="Алексей Клименко"
-                  className="w-full h-full object-cover object-right"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
             </div>
