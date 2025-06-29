@@ -43,12 +43,12 @@ const Hero = () => {
           
           <div className="md:w-1/2">
             <div className="relative">
-              <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-brand-purple to-brand-blue rounded-full overflow-hidden mx-auto shadow-xl">
-                <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
-                  <p className="text-white text-lg font-medium text-center px-4">
-                    Фото Алексея Клименко
-                  </p>
-                </div>
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden mx-auto shadow-xl">
+                <img 
+                  src="/lovable-uploads/fe40ffab-ce0d-4147-996a-14daed1604e9.png" 
+                  alt="Алексей Клименко"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
