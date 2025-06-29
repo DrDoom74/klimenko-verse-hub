@@ -6,30 +6,30 @@ import { Button } from "@/components/ui/button";
 const Projects = () => {
   const projects = [
     {
-      title: "Онлайн-курсы по тестированию",
+      title: "Интенсив по тестированию API",
       category: "Обучение",
-      description: "Авторские курсы по различным аспектам тестирования программного обеспечения для начинающих и продвинутых QA-инженеров.",
+      description: "Практикум по тестированию API на собственной платформе для работы с привычками, позволяющий оперативно прокачать навыки тестирования backend и упорядочить теорию.",
       link: "https://coreapp.ai/app/player/course/677640bd9e77c5240a881b6b",
-      linkText: "Перейти к курсам"
+      linkText: "Перейти к курсу"
     },
     {
       title: "Канал на YouTube",
       category: "Медиа",
-      description: "Образовательный контент по тестированию, интервью с экспертами отрасли и обзоры инструментов для QA-специалистов.",
+      description: "Образовательный контент по тестированию, интервью с экспертами отрасли и разборы тестовых заданий для QA-специалистов.",
       link: "https://www.youtube.com/@AKlimenko",
       linkText: "Смотреть канал"
     },
     {
       title: "Телеграм-канал",
       category: "Сообщество",
-      description: "Полезные материалы и новости из мира тестирования, а также обсуждение актуальных вопросов QA.",
+      description: "Полезные материалы, лайфхаки и советы по работе в различных областях тестирования, а также обсуждение актуальных вопросов QA.",
       link: "https://t.me/QA_AKlimenko",
       linkText: "Подписаться"
     },
     {
-      title: "Track Habits",
+      title: "Тренажеры",
       category: "Проект",
-      description: "Приложение для отслеживания привычек и достижения целей с фокусом на простоту использования и продуктивность.",
+      description: "Интерактивные тренажеры для практки тестирования, позволяющие прокачать базовые навыки начинающим тестировщикам",
       link: "https://trackhabits.ru/",
       linkText: "Посетить сайт"
     }
@@ -42,7 +42,7 @@ const Projects = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 gradient-text">Мои проекты</h2>
           <div className="w-20 h-1 bg-brand-purple mx-auto mb-8"></div>
           <p className="text-gray-700">
-            Образовательные и практические проекты, которые я создал для сообщества QA-специалистов
+            Образовательные и медийные проекты, которые я создал для сообщества QA-специалистов
           </p>
         </div>
 
@@ -69,14 +69,6 @@ const Projects = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="mt-12 text-center">
-          <Button asChild className="btn-primary">
-            <a href="https://www.linkedin.com/in/alexey-klimenko/" target="_blank" rel="noopener noreferrer">
-              Смотреть все проекты на LinkedIn
-            </a>
-          </Button>
         </div>
       </div>
     </section>
