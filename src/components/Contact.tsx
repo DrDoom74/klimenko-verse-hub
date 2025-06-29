@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Linkedin, Youtube, MessageSquare, Mail, Phone, Globe } from 'lucide-react';
+import { Linkedin, Youtube, MessageSquare, Mail, Globe } from 'lucide-react';
 
 const Contact = () => {
   const socialLinks = [
@@ -45,15 +45,7 @@ const Contact = () => {
                 <Mail className="h-6 w-6 text-brand-purple mr-4" />
                 <div>
                   <p className="text-sm text-gray-500">Email</p>
-                  <p className="font-medium">contact@example.com</p>
-                </div>
-              </div>
-              
-              <div className="flex items-center">
-                <Phone className="h-6 w-6 text-brand-purple mr-4" />
-                <div>
-                  <p className="text-sm text-gray-500">Телефон</p>
-                  <p className="font-medium">+7 (XXX) XXX-XX-XX</p>
+                  <p className="font-medium">alexey_klimenko2010@mail.ru</p>
                 </div>
               </div>
               

@@ -45,12 +45,12 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a href="https://coreapp.ai/app/player/course/677640bd9e77c5240a881b6b" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                  Онлайн-курсы
+                  Интенсив по тестированию API
                 </a>
               </li>
               <li>
-                <a href="https://trackhabits.ru/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                  Track Habits
+                <a href="https://aklimenkoschool.ru/simulators/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                  Тренажеры
                 </a>
               </li>
               <li>
