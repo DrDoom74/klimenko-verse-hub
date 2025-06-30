@@ -13,7 +13,7 @@ const Hero = () => {
               Алексей Клименко
             </h1>
             <h2 className="text-2xl md:text-3xl mb-6 font-medium gradient-text">
-              QA Engineer & Тренер
+              QA Engineer & Ментор
             </h2>
             <p className="text-lg text-gray-700 mb-8 max-w-lg">
               Помогаю IT-командам создавать качественные продукты и обучаю специалистов тестированию ПО с практическим подходом.
