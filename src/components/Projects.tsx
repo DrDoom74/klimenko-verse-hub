@@ -52,8 +52,8 @@ const Projects = () => {
               key={index}
               className="bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 hover:shadow-xl card-hover"
             >
-              <div className="h-40 bg-gradient-to-r from-brand-purple/20 to-brand-blue/20 flex items-center justify-center">
-                <h3 className="text-2xl font-bold text-brand-purple">{project.title}</h3>
+              <div className="h-40 bg-gradient-to-r from-brand-purple/20 to-brand-blue/20 flex items-center justify-center p-4">
+                <h3 className="text-xl md:text-2xl font-bold text-brand-purple text-center leading-tight">{project.title}</h3>
               </div>
               <div className="p-6">
                 <div className="inline-block px-3 py-1 bg-purple-100 text-brand-purple text-xs font-medium rounded-full mb-4">
