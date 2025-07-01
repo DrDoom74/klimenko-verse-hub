@@ -49,8 +49,8 @@ const Navbar = () => {
           </div>
 
           {/* Contact button - shown only on desktop */}
-          <Button className="hidden md:inline-block btn-primary">
-            Связаться
+          <Button asChild className="hidden md:inline-block btn-primary">
+            <a href="#contact">Связаться</a>
           </Button>
         </div>
 
@@ -63,8 +63,8 @@ const Navbar = () => {
               <a href="#services" className="text-gray-700 hover:text-brand-purple transition-colors" onClick={toggleMenu}>Услуги</a>
               <a href="#projects" className="text-gray-700 hover:text-brand-purple transition-colors" onClick={toggleMenu}>Проекты</a>
               <a href="#contact" className="text-gray-700 hover:text-brand-purple transition-colors" onClick={toggleMenu}>Контакты</a>
-              <Button className="w-full btn-primary">
-                Связаться
+              <Button asChild className="w-full btn-primary">
+                <a href="#contact">Связаться</a>
               </Button>
             </nav>
           </div>
